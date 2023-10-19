@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            font-size: larger;
+        }
+
+        p::first-line{
+            background-color: coral;
+        }
+
+        p::selection{
+            background-color: blue;
+        }
+
+        p::before{
+            content: "****";
+        }
+
+        p::after{
+            font-size: larger
+            content: "****";
+        }
+    </style>
+</head>
+<body>
+    <div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Numquam voluptate sit laboriosam mollitia.
+          Commodi incidunt consequuntur quaerat itaque maxime 0maiores accusantium quisquam fugiat quod ipsum! 
+         Illo nostrum nam nemo est?
+        </p>
+    </div>
+</body>
+</html>
